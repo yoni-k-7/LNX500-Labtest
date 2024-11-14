@@ -336,7 +336,7 @@ all: myapp
 
 
 objs-y		:= main
-libs-y		:= lib
+libs-y		:= lib student_information_yoni
 
 myapp-dirs	:= $(objs-y) $(libs-y)
 myapp-objs	:= $(patsubst %,%/built-in.o, $(objs-y))

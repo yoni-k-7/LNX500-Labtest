@@ -1,0 +1,4 @@
+config LNX500_TEST
+	bool "LNX500 Labtest"
+	help
+	  bar.
