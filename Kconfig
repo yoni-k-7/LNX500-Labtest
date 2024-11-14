@@ -19,6 +19,7 @@ config CROSS_COMPILE
 	  directory to select the cross-compiler automatically.
 
 source "lib/Kconfig"
+source "student_information_yoni/Kconfig"
 
 config FOO
 	bool "Foo"
@@ -30,3 +31,4 @@ config BAR
 	depends on FOO
 	help
 	  bar.
+

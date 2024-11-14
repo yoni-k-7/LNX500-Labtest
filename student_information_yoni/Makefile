@@ -1,0 +1,1 @@
+lib-$(CONFIG_LNX500_TEST)     += student_info.o
